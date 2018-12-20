@@ -13,6 +13,10 @@
 		447167EA21CB3C7E00EF84FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447167E921CB3C7E00EF84FF /* Assets.xcassets */; };
 		447167ED21CB3C7E00EF84FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447167EB21CB3C7E00EF84FF /* LaunchScreen.storyboard */; };
 		447167F021CB3C7E00EF84FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 447167EF21CB3C7E00EF84FF /* main.m */; };
+		447167FA21CB3E9600EF84FF /* PLSingleItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447167F921CB3E9600EF84FF /* PLSingleItemViewController.m */; };
+		447167FE21CB43A200EF84FF /* PLMultipleItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447167FD21CB43A200EF84FF /* PLMultipleItemViewController.m */; };
+		4471680121CB44D000EF84FF /* PLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4471680021CB44D000EF84FF /* PLViewController.m */; };
+		4471680421CB453700EF84FF /* UIViewController+BarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4471680321CB453700EF84FF /* UIViewController+BarButtonItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		447167EC21CB3C7E00EF84FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		447167EE21CB3C7E00EF84FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		447167EF21CB3C7E00EF84FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		447167F821CB3E9600EF84FF /* PLSingleItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLSingleItemViewController.h; sourceTree = "<group>"; };
+		447167F921CB3E9600EF84FF /* PLSingleItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLSingleItemViewController.m; sourceTree = "<group>"; };
+		447167FC21CB43A200EF84FF /* PLMultipleItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLMultipleItemViewController.h; sourceTree = "<group>"; };
+		447167FD21CB43A200EF84FF /* PLMultipleItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLMultipleItemViewController.m; sourceTree = "<group>"; };
+		447167FF21CB44D000EF84FF /* PLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLViewController.h; sourceTree = "<group>"; };
+		4471680021CB44D000EF84FF /* PLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLViewController.m; sourceTree = "<group>"; };
+		4471680221CB453600EF84FF /* UIViewController+BarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BarButtonItem.h"; sourceTree = "<group>"; };
+		4471680321CB453700EF84FF /* UIViewController+BarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BarButtonItem.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,8 @@
 		447167DF21CB3C7A00EF84FF /* CustomBarButtonItem */ = {
 			isa = PBXGroup;
 			children = (
+				447167F721CB3E2A00EF84FF /* Category */,
+				447167F621CB3E2200EF84FF /* Class */,
 				447167E021CB3C7A00EF84FF /* AppDelegate.h */,
 				447167E121CB3C7A00EF84FF /* AppDelegate.m */,
 				447167E321CB3C7A00EF84FF /* ViewController.h */,
@@ -69,6 +83,28 @@
 				447167EF21CB3C7E00EF84FF /* main.m */,
 			);
 			path = CustomBarButtonItem;
+			sourceTree = "<group>";
+		};
+		447167F621CB3E2200EF84FF /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				447167F821CB3E9600EF84FF /* PLSingleItemViewController.h */,
+				447167F921CB3E9600EF84FF /* PLSingleItemViewController.m */,
+				447167FC21CB43A200EF84FF /* PLMultipleItemViewController.h */,
+				447167FD21CB43A200EF84FF /* PLMultipleItemViewController.m */,
+				447167FF21CB44D000EF84FF /* PLViewController.h */,
+				4471680021CB44D000EF84FF /* PLViewController.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		447167F721CB3E2A00EF84FF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4471680221CB453600EF84FF /* UIViewController+BarButtonItem.h */,
+				4471680321CB453700EF84FF /* UIViewController+BarButtonItem.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +178,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				447167E521CB3C7A00EF84FF /* ViewController.m in Sources */,
+				447167FE21CB43A200EF84FF /* PLMultipleItemViewController.m in Sources */,
 				447167F021CB3C7E00EF84FF /* main.m in Sources */,
 				447167E221CB3C7A00EF84FF /* AppDelegate.m in Sources */,
+				4471680121CB44D000EF84FF /* PLViewController.m in Sources */,
+				4471680421CB453700EF84FF /* UIViewController+BarButtonItem.m in Sources */,
+				447167FA21CB3E9600EF84FF /* PLSingleItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
