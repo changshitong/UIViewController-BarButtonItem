@@ -17,6 +17,8 @@
 		447167FE21CB43A200EF84FF /* PLMultipleItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447167FD21CB43A200EF84FF /* PLMultipleItemViewController.m */; };
 		4471680121CB44D000EF84FF /* PLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4471680021CB44D000EF84FF /* PLViewController.m */; };
 		4471680421CB453700EF84FF /* UIViewController+BarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4471680321CB453700EF84FF /* UIViewController+BarButtonItem.m */; };
+		4471680721CB61E400EF84FF /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 4471680621CB61E400EF84FF /* NSObject+SXRuntime.m */; };
+		4471680A21CB61ED00EF84FF /* UINavigationBar+FixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 4471680821CB61ED00EF84FF /* UINavigationBar+FixSpace.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,10 @@
 		4471680021CB44D000EF84FF /* PLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLViewController.m; sourceTree = "<group>"; };
 		4471680221CB453600EF84FF /* UIViewController+BarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BarButtonItem.h"; sourceTree = "<group>"; };
 		4471680321CB453700EF84FF /* UIViewController+BarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BarButtonItem.m"; sourceTree = "<group>"; };
+		4471680521CB61E400EF84FF /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXRuntime.h"; sourceTree = "<group>"; };
+		4471680621CB61E400EF84FF /* NSObject+SXRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXRuntime.m"; sourceTree = "<group>"; };
+		4471680821CB61ED00EF84FF /* UINavigationBar+FixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+FixSpace.m"; sourceTree = "<group>"; };
+		4471680921CB61ED00EF84FF /* UINavigationBar+FixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+FixSpace.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		447167F721CB3E2A00EF84FF /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				4471680921CB61ED00EF84FF /* UINavigationBar+FixSpace.h */,
+				4471680821CB61ED00EF84FF /* UINavigationBar+FixSpace.m */,
+				4471680521CB61E400EF84FF /* NSObject+SXRuntime.h */,
+				4471680621CB61E400EF84FF /* NSObject+SXRuntime.m */,
 				4471680221CB453600EF84FF /* UIViewController+BarButtonItem.h */,
 				4471680321CB453700EF84FF /* UIViewController+BarButtonItem.m */,
 			);
@@ -178,8 +188,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				447167E521CB3C7A00EF84FF /* ViewController.m in Sources */,
+				4471680721CB61E400EF84FF /* NSObject+SXRuntime.m in Sources */,
 				447167FE21CB43A200EF84FF /* PLMultipleItemViewController.m in Sources */,
 				447167F021CB3C7E00EF84FF /* main.m in Sources */,
+				4471680A21CB61ED00EF84FF /* UINavigationBar+FixSpace.m in Sources */,
 				447167E221CB3C7A00EF84FF /* AppDelegate.m in Sources */,
 				4471680121CB44D000EF84FF /* PLViewController.m in Sources */,
 				4471680421CB453700EF84FF /* UIViewController+BarButtonItem.m in Sources */,
